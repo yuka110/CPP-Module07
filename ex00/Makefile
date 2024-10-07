@@ -1,6 +1,6 @@
-NAME	=array
+NAME	=whatever
 CC		=c++
-CFLAGS	=-Wall -Werror -Wextra -std=c++11 -g -fsanitize=address
+CFLAGS	=-Wall -Werror -Wextra -std=c++11 -g #-fsanitize=leak
 RM		=rm -f
 SRC		=main.cpp
 OBJ		=$(SRC:%.cpp=obj/%.o)
